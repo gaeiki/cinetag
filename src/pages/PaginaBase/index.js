@@ -1,0 +1,19 @@
+const { default: Cabecalho } = require("components/Cabecalho");
+const { default: Container } = require("components/Container");
+const { default: Rodape } = require("components/Rodape");
+const { default: FavoritosProvider } = require("contexts/Favoritos");
+const { Outlet } = require("react-router-dom");
+
+export default function PaginaBase() {
+    return (
+        <main>
+            <Cabecalho />
+            <FavoritosProvider>
+                <Container>
+                    <Outlet />
+                </Container>
+            </FavoritosProvider>
+            <Rodape />
+        </main>
+    )
+}
