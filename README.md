@@ -20,7 +20,7 @@ O projeto foi construido durante a aula de prática de ReactJS, e foram utilizad
 ---
 
 ## 🌐 Access the project
-https://alura-space-coral.vercel.app/
+https://cinetag-ashy.vercel.app/
 
 ## ⚙️ Functionalities
 
